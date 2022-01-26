@@ -4,5 +4,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 setTimeout(function () {
-  self.postMessage(window.indexedDB.databases().length);
+  self.postMessage(self.indexedDB.databases().length);
 }, 1000);
